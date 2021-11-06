@@ -103,8 +103,7 @@ class BustersAgent:
         return self.chooseAction(gameState)
 
     def chooseAction(self, gameState):
-        "By default, a BustersAgent just stops.  This should be overridden."
-        return Directions.STOP
+        "By default, a BustersAgent just stops.  This should be overridden."\
 
 class BustersKeyboardAgent(BustersAgent, KeyboardAgent):
     "An agent controlled by the keyboard that displays beliefs about ghost positions."
